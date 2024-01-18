@@ -1,0 +1,50 @@
+*{
+    font-family: sans-serif;
+    
+
+}
+body{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding:2em ;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+form{
+    text-align: center;
+    margin-top: 50px;
+    
+ 
+}
+.header{
+    background-color: orange;
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 20px;
+}
+div{
+    margin-bottom: 14px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+label{
+    text-align: right;
+    width: 30%;
+    margin-right: 2%;
+}
+input{
+ flex: auto;
+}
+button{    
+
+    width: 70%;
+    margin: 0 auto;
+}
+label,input,button{
+    line-height: 1.5;
+}
